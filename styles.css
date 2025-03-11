@@ -1,0 +1,97 @@
+/* styles.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #000;
+    color: #FFF;
+  }
+
+  .logo-name {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px; /* Adjust the size of the logo as needed */
+    height: 70px; /* Maintain square dimensions for the logo */
+    margin-right: 10px; /* Space between logo and name */
+  }
+  
+  header h1 {
+    margin: 0; /* Ensures proper alignment */
+    font-weight: 600;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-left: 1rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #FFF;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .intro {
+    display: flex; /* Places the image and text side by side */
+    align-items: center; /* Vertically aligns the text to the middle of the image */
+    justify-content: center; /* Centers the whole block horizontally within the parent container */
+    gap: 5rem; /* Adds spacing between the image and text */
+  }
+  
+  .intro img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7); /* Adds shadow */
+  }
+  
+  
+  .intro div {
+    display: flex;
+    flex-direction: column; /* Ensures text inside the <div> is stacked */
+    justify-content: center; /* Vertically aligns text within the <div> */
+  }
+  
+  
+  .intro h2 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 3rem;
+  }
+  
+  .intro p {
+    margin: 0;
+    color: #000;
+  }
+  
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+    margin-top: 2rem;
+  }
+  
