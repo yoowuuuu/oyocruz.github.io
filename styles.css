@@ -95,3 +95,63 @@ body {
     margin-top: 2rem;
   }
   
+  @media (max-width: 768px) { 
+    /* Styles for tablets and mobile devices */
+    
+    header {
+      display: flex;
+      flex-direction: row; /* Ensures content flows left to right */
+      justify-content: space-between; /* Keeps elements aligned properly */
+      align-items: center; /* Aligns items vertically in the center */
+      padding: 1rem 1rem;
+      background-color: #000;
+      color: #FFF;
+      gap: 2rem;
+    }
+
+    header h1 {
+      font-size: 1.3rem; /* Adjust this value to set the size on mobile */
+    }
+  
+    nav ul {
+      flex-direction: row;
+      list-style: none;
+      display: flex; /* Keeps the items in a row */
+      gap: 0.5rem; /* Adds space between the items */
+      margin: 0;
+      padding: 0
+    }
+  
+    nav ul li {
+      margin: 0.5rem 0; /* Space between menu items */
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      font-weight: 400;
+      color: #FFF;
+      font-size: 0.8rem; /* Adjust this value to make the text smaller */
+    }
+    
+  
+    .intro {
+      flex-direction: column; /* Stack image and text vertically */
+      gap: 2rem; /* Adjust the spacing for better alignment */
+      text-align: center;
+    }
+  
+    .intro img {
+      width: 100%; /* Full width on smaller screens */
+      height: auto; /* Maintain aspect ratio */
+      max-width: 300px; /* Optional: Limit max size */
+    }
+  
+    .intro h2 {
+      font-size: 2rem; /* Reduce font size for smaller screens */
+    }
+  
+    footer {
+      font-size: 0.9rem; /* Slightly smaller text for footer */
+    }
+  }
+  
